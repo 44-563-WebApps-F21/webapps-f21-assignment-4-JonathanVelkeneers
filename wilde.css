@@ -1,0 +1,28 @@
+.speech {
+    font-size: 1.5em;
+    color: black;
+}
+
+.stage-direction {
+    font-size: 1.2em;
+    color: black;
+    background-color: lightgrey;
+}
+
+.stage-direction:hover {
+    color:red;
+    background-color: black;
+}
+
+.name {
+    font-size: 2em;
+    color: black;
+}
+
+.windermere {
+    color: lightgreen;
+}
+
+.erlynne {
+    color: lightblue;
+}
