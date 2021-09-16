@@ -1,10 +1,10 @@
 .speech {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: black;
 }
 
 .stage-direction {
-    font-size: 1.2em;
+    font-size: 1em;
     color: black;
     background-color: lightgrey;
 }
@@ -15,14 +15,38 @@
 }
 
 .name {
-    font-size: 2em;
+    font-size: 1.7em;
     color: black;
 }
 
+.name:hover {
+    text-shadow: 2px 1px black;
+    border: 3px dotted grey;
+}
+
 .windermere {
-    color: lightgreen;
+    color: green;
 }
 
 .erlynne {
-    color: lightblue;
+    color: blue;
+}
+
+table, th, td {
+    border: 2px solid;
+    text-align: center;
+}
+th {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: red;
+    border-color: black;
+}
+
+td {
+    padding: 2vh;
+}
+td:nth-of-type(3){
+    color: green;
+    border-color: black;
 }
