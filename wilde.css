@@ -50,3 +50,30 @@ td:nth-of-type(3){
     color: green;
     border-color: black;
 }
+
+footer {
+    display: block;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+footer nav ul{
+    display: block;
+    padding: 10px;
+    margin-left: 2vw;
+}
+
+footer nav ul li{
+    display: inline-block;
+    margin-right: 3vw;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+footer nav ul li a:hover{
+    color: black;
+}
+
